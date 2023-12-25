@@ -1,0 +1,29 @@
+* {
+/*	font-family: 'Noto Serif Display', serif;*/
+}
+body {
+/*  background-color: rgba(232, 52, 78, 0.2);*/
+min-height: 100vh;
+}
+
+.section {
+	padding: 1rem 1.5rem;
+	max-width: 750px;
+	margin: auto;
+}
+
+.is-image {
+	background-image: url('/static/Untitled.png');
+	padding: 0;
+/*	background-repeat: repeat-y;*/
+/*	background-position: right top;*/
+	background-size: cover;
+}
+
+.is-blue {
+	background-color: blue;
+}
+
+.is-content {
+	max-width: 90%;
+}
